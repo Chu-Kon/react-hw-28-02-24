@@ -1,0 +1,41 @@
+/* ShopList.css */
+/* Стилизация таблицы */
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Стилизация заголовков таблицы */
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Стилизация ячеек таблицы */
+  td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Альтернативное оформление строк */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* При наведении курсора на строку */
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Стилизация заголовка таблицы */
+  thead {
+    font-weight: bold;
+  }
+  
+  /* Стилизация текста в ячейках */
+  td {
+    font-size: 14px;
+  }
